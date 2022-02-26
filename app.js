@@ -79,12 +79,12 @@ app.post("/login", async (req,res)=>{
     }
 })
 
-router.get("/submit", auth, async (req,res)=>{
+router.get("/submitt", auth, async (req,res)=>{
     console.log("submitttttt");
     res.send(req.rootUser);
 })
 
-router.get("/logout", async (req,res)=>{
+router.get("/logoutt", async (req,res)=>{
     console.log("logout");
     res.clearCookie("jwt");
     res.clearCookie("gtoken");
@@ -226,7 +226,7 @@ app.use(router)
 
 
 
-app.get('/analysis',auth, async(req, res) => {
+app.get('/analysiss',auth, async(req, res) => {
     try {
         var subjectArr = [];
         var scoreArr = [];

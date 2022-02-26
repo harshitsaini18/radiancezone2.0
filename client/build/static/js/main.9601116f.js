@@ -47974,7 +47974,7 @@
                           return (
                             (t.prev = 0),
                             (t.next = 3),
-                            nt().get("/submit", {
+                            nt().get("/submitt", {
                               header: {
                                 Accept: "application/json",
                                 "Content-Type": "application/json",
@@ -53469,7 +53469,7 @@
                           return (
                             (t.prev = 0),
                             (t.next = 3),
-                            nt().get("/submit", {
+                            nt().get("/submitt", {
                               header: {
                                 Accept: "application/json",
                                 "Content-Type": "application/json",
@@ -53684,7 +53684,7 @@
                           return (
                             (t.prev = 0),
                             (t.next = 3),
-                            nt().get("/submit", {
+                            nt().get("/submitt", {
                               header: {
                                 Accept: "application/json",
                                 "Content-Type": "application/json",
@@ -54096,7 +54096,7 @@
                           return (
                             (t.prev = 0),
                             (t.next = 3),
-                            nt().get("/submit", {
+                            nt().get("/submitt", {
                               header: {
                                 Accept: "application/json",
                                 "Content-Type": "application/json",
