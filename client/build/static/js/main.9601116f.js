@@ -48553,7 +48553,7 @@
                                     (0, Gr.jsx)("div", {
                                       className: "ms-line-point",
                                       onClick: function () {
-                                        return window.open("/datay");
+                                        return location.href = "/data";
                                       },
                                     }),
                                   ],
