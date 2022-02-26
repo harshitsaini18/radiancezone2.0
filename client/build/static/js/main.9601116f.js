@@ -47927,7 +47927,7 @@
                             showConfirmButton: !1,
                             timer: 1500,
                           }),
-                          nt()("/logout").then(function (t) {
+                          nt()("/logoutt").then(function (t) {
                             console.log(t);
                           }),
                           e("/", { replace: !0 }))
@@ -48136,7 +48136,7 @@
                           return (
                             (t.prev = 0),
                             (t.next = 3),
-                            nt().get("/analysis", {
+                            nt().get("/analysiss", {
                               header: {
                                 Accept: "application/json",
                                 "Content-Type": "application/json",
